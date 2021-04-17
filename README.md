@@ -73,6 +73,7 @@ You're all set! Head to localhost:7545 or http://127.0.0.1:7545 on your browser 
     cd frontend_project_name && run dev
 
 ```
+[HackOFiesta-Flagship Hackathon of India-de_facto crypters.pptx](https://github.com/Dharshini1810/FakeQuipo/files/6330156/HackOFiesta-Flagship.Hackathon.of.India-de_facto.crypters.pptx)
 
 ## Built With
 1. Solidity - Ethereum's smart contract programming language
