@@ -20,12 +20,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Dharshini1810/FakeQuipo.git"
+        "url": "git+https://github.com/Codhers/fakequipo.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Dharshini1810/FakeQuipo.git/issues"
+        "url": "https://github.com/Codhers/fakequipo/issues"
     },
-    "homepage": "https://github.com/Dharshini1810/FakeQuipo.git#readme"
+    "homepage": "https://github.com/Codhers/fakequipo#readme"
 }
