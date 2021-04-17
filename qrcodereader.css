@@ -20,29 +20,31 @@ body{
 #box{
     width: 50%; 
     background-position: fixed;
-    height: 70vh; 
+    height: 60vh; 
     border: 1px solid rgba(255,255,255,0.4); 
     border-radius: 25px;  
     backdrop-filter: blur(5px); 
     position: fixed;
-    top: 100px;
-    left: 300px;
+    top: 60px;
+    left: 350px;
     background-color: radial-gradient(at 50% 0%, rgba(0,0,0,0), rgba(255,255,255,0.3));
     box-shadow: 10px 10px 30px rgba(0,0,0,0.5); 
     transition: all 0.3 ease-in-out;
 } 
-#box:hover{
+/*#box:hover{
     transform: scale(1.05);
     backdrop-filter: blur(10px); 
     background: radial-gradient(at 50% 0% , rgba(0,0,0,0),rgba(255,255,255,0.3));
     box-shadow: 10px 10px 40px rgba(0,0,0,0.7); 
     
-} 
+} */
 #outputbox{
     width: 105%;
-    height: 250px;
-    margin-top: -370px; 
+    height: 50px;
+    margin-top: -360px; 
     margin-left: 560px;
+    position: fixed;
+    background-attachment: fixed;
 }
 .file__upload{
     justify-content: center; 
@@ -71,26 +73,24 @@ body{
     flex-direction: column; 
     display:flex;
 } 
-.btn:hover{
-    font-size: 23px;
-} 
+
 p{
     justify-content: center;
     align-items: center;   
     text-decoration: underline;
     margin-top: 30px; 
     font-size: 25px;  
-    margin-left: -450px; 
+    margin-left: 100px; 
     font-family: cursive;
     align-items: center;
     flex-direction: column; 
-    display:flex;
+    display:inline-block;
 
 }  
 span{ 
     justify-content: center;
     align-items: center;   
-    margin-top: -35px; 
+    margin-top: -5px; 
     font-size: 25px;  
     margin-left: 300px; 
     font-family: cursive;
@@ -101,7 +101,7 @@ span{
 .qrcode{
     justify-content: center; 
     align-items: center;
-    margin-top: 90px; 
+    margin-top: 25px; 
     border-radius: 25px; 
     padding-left: 30px; 
     font-size: 25px;  
@@ -112,6 +112,7 @@ span{
     display:flex; 
     background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 } 
-.qrcode:hover{
-    background: white;
+
+#demo{
+    display: none;
 }
